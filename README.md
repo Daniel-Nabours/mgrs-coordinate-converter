@@ -1,6 +1,8 @@
 # mgrs-coordinate-converter
 A proj4 powered utility for converting between UTM and WGS84 coordinate systems
 
+## Usage
+
 ```
 let convertedCoord:string = CoordinateConverter("DD", "MGRS", "10, 10")
 assert.equal("32P PS 09600 05578", convertedCoord) //true
